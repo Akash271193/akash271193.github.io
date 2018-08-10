@@ -30,6 +30,6 @@ function processPortfolio(data){
 
 function getPortfolio(){
 	jQuery.support.cors = true;
-	$.get("http://portfolio.com/apis/getProjects",processPortfolio);
+	$.get("http://128.199.86.39/portfolio/apis/getProjects",processPortfolio);
 };
 
