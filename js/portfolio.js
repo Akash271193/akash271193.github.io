@@ -33,3 +33,4 @@ function getPortfolio(){
 	$.get("https://portfolio.mycanvas.info/apis/getProjects",processPortfolio);
 };
 
+
