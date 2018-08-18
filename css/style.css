@@ -327,6 +327,6 @@ ABOUT SECTION
 	border-radius: 50%;
 }
 
-.userPhoto hover{
+.myphoto img:hover{
     border-radius: 15%;
 }
