@@ -354,8 +354,8 @@ ABOUT SECTION
 
 .myphoto:hover .userPhoto{
     border-radius: 15%;
-	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
-    filter: blur(4px);
+	webkit-filter: blur(10px); /* Chrome, Safari, Opera */
+    filter: blur(10px);
 }
 
 .myphoto:hover .linkedInPhoto{
