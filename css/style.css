@@ -327,8 +327,19 @@ ABOUT SECTION
 	border-radius: 50%;
 }
 
+.myphoto .linkedInPhoto{
+    display:none;
+}
+
 .myphoto:hover .userPhoto{
     border-radius: 15%;
 	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(4px);
 }
+
+.myphoto:hover .linkedInPhoto{
+	margin-left: auto;
+    margin-right: auto;
+	display:block;
+}
+
