@@ -327,6 +327,10 @@ ABOUT SECTION
 	border-radius: 50%;
 }
 
+.myphoto .linkedInPhoto{
+    display:none;
+}
+
 .myphoto:hover .userPhoto{
     border-radius: 15%;
 	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
@@ -334,9 +338,9 @@ ABOUT SECTION
 }
 
 .myphoto:hover .linkedInPhoto{
-  width: 48px;
-  height: 48px;
-  z-index: 100;
-  background: url('../img/linkedin.jpg') no-repeat;
+   	position:absolute;
+    width: 48px;
+    height: 48px;
+	display:block;
 }
 
