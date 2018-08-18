@@ -324,4 +324,9 @@ ABOUT SECTION
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+	border-radius: 50%;
+}
+
+.userPhoto hover{
+    border-radius: 15%;
 }
