@@ -323,10 +323,10 @@ ABOUT SECTION
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 60%;
 	border-radius: 50%;
 }
 
-.myphoto img:hover{
+.myphoto:hover .userPhoto{
     border-radius: 15%;
 }
