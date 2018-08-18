@@ -329,4 +329,6 @@ ABOUT SECTION
 
 .myphoto:hover .userPhoto{
     border-radius: 15%;
+	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
 }
