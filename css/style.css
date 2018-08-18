@@ -334,10 +334,9 @@ ABOUT SECTION
 }
 
 .myphoto:hover .linkedInPhoto{
-  position:absolute;
   width: 48px;
   height: 48px;
   z-index: 100;
-  background: transparent url('../img/linkedin.jpg') no-repeat;
+  background: url('../img/linkedin.jpg') no-repeat;
 }
 
