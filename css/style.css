@@ -323,7 +323,7 @@ ABOUT SECTION
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 80%;
 	border-radius: 50%;
 }
 
@@ -335,8 +335,19 @@ ABOUT SECTION
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -40%);
+	-ms-transform: translate(-50%, -40%);
+}
+
+.myphoto .linkedInPhotoText{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	-ms-transform: translate(-50%, -60%);
+	text-decoration: underline;
 }
 
 .myphoto:hover .userPhoto{
@@ -348,3 +359,8 @@ ABOUT SECTION
 .myphoto:hover .linkedInPhoto{
    	opacity:1;
 }
+
+.myphoto:hover .linkedInPhotoText{
+   	opacity:1;
+}
+
