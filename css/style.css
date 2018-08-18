@@ -338,6 +338,6 @@ ABOUT SECTION
   width: 48px;
   height: 48px;
   z-index: 100;
-  background: transparent url('../img/linkedin.jpg') no-repeat;
+  background: transparent url('/img/linkedin.jpg') no-repeat;
 }
 
